@@ -1,0 +1,62 @@
+.Sist {
+    display: flex;
+    position: relative;
+    left: -0px;
+    margin-top: -1px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    padding: 15px;
+   
+    
+}
+
+.Usina {
+    margin-left: 30px;
+    font-size: 30px;
+   
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 200px;
+    background-color: #fff;
+    padding: 100px;
+    border-radius: 5px;
+    
+
+   
+}
+
+body {
+   background-image: url("/images/Foto-usina.webp");
+   background-repeat: no-repeat;
+   background-size: 1800px 900px;
+
+}
+
+#btn {
+    padding: 2px 10px;
+    margin-top: -5px;
+    background-color: #007bff;
+    
+    
+}
+
+.cadastro {
+        margin-top: -20px;
+        font-size: 15px;
+    }
+
+#conta {
+   background-color: #007bff; 
+   margin-top: 13px;
+   
+   }
+
+
