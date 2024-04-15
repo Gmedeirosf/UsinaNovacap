@@ -10,7 +10,7 @@
     <title>Usina</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="  background-color: black;">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="  background-color: #172554;">
         <div class="container-fluid">
          
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,14 +29,14 @@
               </li>
               
               <li class="nav-item">
-                <a class="nav-link" href="#">Materiais</a>
+                <a class="nav-link" href="materiais.html">Materiais</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Motorista</a>
+                <a class="nav-link" href="motorista.html">Motorista</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">Automóvel</a>
+                <a class="nav-link" href="automovel.html">Automóvel</a>
               </li>
               <li class="nav-item dropdown">
                
@@ -51,7 +51,14 @@
             </ul>
             <div class="d-flex">
               
-              <button class="btn btn-primary btn-sm" style="background-color: #007bff;" type="submit">Usuário</button>
+              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="40px" fill="#FFF" class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                  </svg> 
+              </a>
+
+              <!-- <button class="btn btn-primary btn-sm" style="background-color: #007bff;" type="submit">Usuário</button> -->
             </div>
 
       
@@ -68,10 +75,12 @@
         <div class="d-flex justify-content-between">
           <div class="d-flex">
         <input class="form-control  me-2" style="margin-top: 40px; margin-left: -1px;" type="search" placeholder="Buscar" aria-label="Search">
-        <button class="btn btn-primary btn-sm"  style="background-color: #007bff; margin-top: 40px;" type="submit">Buscar</button>
+        <button class="btn btn-primary btn-sm"  style="background-color: #087f5b;  border-color: #087f5b;  margin-top: 40px;" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+        </svg></button>
       </div>
       <div>
-        <button class="btn btn-primary btn-sm"  style="background-color: #007bff; margin-top: 40px; padding: 6px 10px;" type="submit">Criar +</button>
+        <button class="btn btn-primary btn-sm"  style="background-color: #087f5b;  border-color: #087f5b;  margin-top: 40px; padding: 6px 10px;" type="submit">Criar +</button>
         </div>
       </div>
 
